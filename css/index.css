@@ -1,0 +1,132 @@
+
+.wrap {
+	font-family: "leitura-news", serif;
+	color: #3a3a3a;
+	font-size:1.87em;
+}
+
+a {
+	color: red;
+}
+li {
+	list-style: none;
+}
+.header {
+	padding: 0.833em 1.667em ;
+	overflow: hidden;
+}
+
+.header>a,
+.footer div {
+	float: left;
+}
+
+.header img {
+	width: 100px; 
+	border-radius: 50%;
+}
+.header ul {
+	padding-top:2em ;
+	float: right;
+}
+
+.header ul li {
+	display: inline;
+}
+.header li a {
+	color: #3a3a3a;
+	margin-right: 0.875em;
+	background-color: transparent;
+	font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 0.25em;
+}
+/*section部分开始*/
+
+#section {
+	margin: 3em 0;
+}
+#section h3 {
+	font-weight: 600;
+	font-size: 1.87em;
+	line-height: 1.25;
+	margin-bottom: 0.25em;
+}
+
+#section p {
+	margin-bottom: 2em;
+}
+.list {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 4%;
+	padding: 0;
+}
+.list li {
+	overflow: hidden;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 4% 0;
+}
+
+.list img {
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+.list p {
+	padding-top:3.5em ;
+	padding-left:5%;
+}
+
+#section>p {
+	padding-bottom:0.25em;
+}
+
+#footer {
+	overflow: hidden;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 1.9em 2em 3.8em;;
+}
+/*footer部分开始*/
+.footer div:nth-of-type(2) {
+	float: right;
+}
+
+.footer div a {
+	margin-right: 0.5em;
+	line-height: 1.75;
+	
+}
+@media (max-width: 800px) {
+   .header {
+   		width: 100%;
+   		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+   		margin-bottom: 0.25em;
+   }
+   .wrap {
+	   	line-height: 1.25;
+	   	font-size: 100%;
+   }
+  
+	
+}
+
+@media (max-width: 560px) {
+   
+   .header>a {
+		display: block;
+		width: 100%;
+   		text-align: center;
+	} 
+	 .navlist {
+	 	text-align: center;
+	 }
+	
+	.navlist,
+	#footer div{
+		width: 100%;
+		float: none;
+	}
+	#footer a {
+		display: block;
+	}
+}
